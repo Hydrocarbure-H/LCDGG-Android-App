@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+		android:layout_marginTop="30dp"
+		android:src="@drawable/categories_txt"
+		android:layout_width="224.0dp"
+		android:layout_height="73.5dp"
+		android:layout_alignParentLeft="true"
+		android:id="@+id/imageView1" />
+
+	<TextView
+		android:text="Actualité"
+        android:layout_marginRight="70dp"
+		android:layout_marginTop="40dp"
+        android:layout_alignParentRight="true"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView1"
+        />
+	<Button
+		android:background="@drawable/actu_img"
+		android:layout_marginRight="20dp"
+		android:layout_marginTop="40dp"
+		android:layout_width="150dp"
+		android:layout_height="90.0dp"
+		android:layout_alignParentRight="true"/>
+
+
+
+    <TextView
+		android:text="Alternatives"
+        android:layout_marginLeft="70dp"
+		android:layout_marginTop="140dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView2"
+        />
+    <Button
+        android:background="@drawable/alternative_img"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_width="150dp"
+        android:layout_height="75dp"/>
+
+
+
+    <TextView
+		android:text="Découverte"
+        android:layout_marginRight="65dp"
+		android:layout_marginTop="140dp"
+        android:layout_alignParentRight="true"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView3"
+        />
+	<Button
+		android:background="@drawable/decouverte_img"
+		android:layout_marginRight="45dp"
+		android:layout_marginTop="160dp"
+		android:layout_width="104.0dp"
+		android:layout_height="64.5dp"
+		android:layout_alignParentRight="true"/>
+
+
+
+    <TextView
+		android:text="Insolite"
+        android:layout_marginRight="75dp"
+		android:layout_marginTop="250dp"
+        android:layout_alignParentRight="true"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView4"
+        />
+    <Button
+        android:background="@drawable/insolite_img"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="270dp"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_alignParentRight="true"/>
+
+
+    <TextView
+		android:text="Tutoriels"
+        android:layout_marginLeft="70dp"
+		android:layout_marginTop="250dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView5"
+        />
+    <Button
+        android:background="@drawable/tuto_img"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="270dp"
+        android:layout_width="150dp"
+        android:layout_height="75dp"/>
+	
+
+
+
+
+
+    <Button
+        android:layout_marginRight="20dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"/>
+    <Button
+        android:layout_marginRight="20dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginBottom="90dp"
+        android:layout_alignParentBottom="true"/>
+    <Button
+        android:layout_marginRight="20dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginBottom="160dp"
+        android:layout_alignParentBottom="true"/>
+
+    
+	
+
+
+</RelativeLayout>

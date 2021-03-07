@@ -1,0 +1,1 @@
+<menu android:background="#00000000" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android"><item android:id="@+id/menu_categories" android:icon="@drawable/categories_ico" android:title="Actualiser" app:showAsAction="ifRoom" /></menu>

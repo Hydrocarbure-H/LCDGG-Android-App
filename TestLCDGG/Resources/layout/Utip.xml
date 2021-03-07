@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+    android:background="#000">
+
+
+    
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+			android:layout_marginTop="10dp"
+			android:layout_marginLeft="5dp"
+			android:textSize="40dp"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:textColor="#fff"
+			android:text="MENU"/>
+
+
+        <TextView
+			android:layout_marginTop="20dp"
+           		android:layout_marginLeft="5dp"
+			android:textSize="20dp"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:textColor="#fff"
+			android:text="La Confédération Des Gros Geeks"/>
+		<Button
+			android:backgroundTint="#282828"
+            android:id="@+id/website_access_button"
+			android:textColor="#fff"
+			android:text="Accéder au site"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"/>
+
+        <TextView
+			android:layout_marginTop="20dp"
+           	android:layout_marginLeft="5dp"
+			android:textSize="20dp"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:textColor="#fff"
+			android:text="Nouveautés de cette version"/>
+		<Button
+			android:backgroundTint="#282828"
+            android:id="@+id/news"
+			android:textColor="#fff"
+			android:text="alors, quoi de neuf ?"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"/>
+
+        <TextView
+			android:layout_marginTop="20dp"
+           	android:layout_marginLeft="5dp"
+			android:textSize="20dp"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:textColor="#fff"
+			android:text="Contacter LCDGG"/>
+		<Button
+			android:backgroundTint="#282828"
+            android:id="@+id/contact_LCDGG_button"
+			android:textColor="#fff"
+			android:text="accéder À la page"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"/>
+
+        <TextView
+			android:layout_marginTop="20dp"
+           	android:layout_marginLeft="5dp"
+			android:textSize="20dp"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:textColor="#fff"
+			android:text="Contacter le développeur"/>
+		<Button
+			android:backgroundTint="#282828"
+            android:id="@+id/contact_button"
+			android:textColor="#fff"
+			android:text="Envoyer un mail"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"/>
+
+
+
+        <TextView
+			android:layout_marginTop="20dp"
+           	android:layout_marginLeft="5dp"
+			android:textSize="20dp"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:textColor="#fff"
+			android:text="Nous soutenir sur uTip !"/>
+		<Button
+			android:backgroundTint="#282828"
+            android:id="@+id/uTip_button"
+			android:textColor="#fff"
+			android:text="accéder À UTIP"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"/>
+
+        <TextView
+			android:layout_marginTop="20dp"
+           	android:layout_marginLeft="5dp"
+			android:textSize="20dp"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:textColor="#fff"
+			android:text="Nous soutenir sur Tipee !"/>
+		<Button
+			android:backgroundTint="#282828"
+            android:id="@+id/tipeee_button"
+			android:textColor="#fff"
+			android:text="accéder À TIPEEE"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"/>
+
+        <TextView
+			android:layout_marginTop="70dp"
+           	android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+			android:textSize="15dp"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:textColor="#555"
+			android:text="LCDGG APP V3.3"/>
+
+        
+
+        
+
+
+    </LinearLayout>
+
+
+
+
+    
+	
+
+
+	
+</ScrollView>
